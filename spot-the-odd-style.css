@@ -287,7 +287,67 @@ button:active{
 #rightBtn{
     background:#2f84d6;
 }
+/* ===================================== */
+/* BACK BUTTONS */
+/* ===================================== */
 
+#backBtn{
+
+    position:fixed;
+
+    top:20px;
+    left:20px;
+
+    z-index:9999;
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#444;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    width:auto;
+
+    flex:unset;
+}
+
+#introBackBtn{
+
+    position:absolute;
+
+    top:20px;
+    left:20px;
+
+    z-index:100000;
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#444;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    width:auto;
+}
 /* ===================================== */
 /* COUNTDOWN */
 /* ===================================== */
@@ -462,7 +522,20 @@ button:active{
 
         border-radius:24px;
     }
+    /* BACK BUTTONS */
+
+#backBtn,
+#introBackBtn{
+
+    top:12px;
+    left:12px;
+
+    padding:10px 16px;
+
+    font-size:16px;
 }
+}
+
 /* ===================================== */
 /* INTRO SCREEN */
 /* ===================================== */
